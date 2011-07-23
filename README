@@ -1,0 +1,25 @@
+Various small twisted snippets.
+
+
+liblo
+--------------------
+Integrates a pyLiblo server into the twisted main event loop and thus allows
+one to use pyLiblo in twisted without threads.
+Liblo is the lightweight OSC library.
+* http://liblo.sourceforge.net/
+* http://das.nasophon.de/pyliblo/
+
+
+bluez
+--------------------
+Integrates a pyBluez RFCOMM socket into the twisted main loop and thus allows
+to connect to Bluetooth RFCOMM devices without the need of an extra thread
+running pyBluez (or some other bluetooth library).
+* http://code.google.com/p/pybluez/
+
+
+
+
+
+I wrote them for my use and my purposes, so they may lack some features or may
+have some bugs I didn't catch.  
