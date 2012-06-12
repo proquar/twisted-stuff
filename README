@@ -18,8 +18,17 @@ running pyBluez (or some other bluetooth library).
 * http://code.google.com/p/pybluez/
 
 
+lirc
+---------------------
+A python-only implementation of a lirc-client. It directly connects to a
+running lircd instance via it's UNIX domain socket. There is no need for
+pylirc or a lircrc file. Keypresses are returned as defined in the lircd.conf
+file.
+* http://www.lirc.org/
+
+
 
 
 
 I wrote them for my use and my purposes, so they may lack some features or may
-have some bugs I didn't catch.  
+not have been thoroughly tested.
